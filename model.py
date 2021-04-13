@@ -6,7 +6,8 @@ class Resnet34(nn.Module):
     def __init__(self):
         super(Resnet34, self).__init__()
         #self.net = torch.hub.load('pytorch/vision:v0.6.0', 'shufflenet_v2_x1_0', pretrained=True)
-        self.net = torch.hub.load('pytorch/vision:v0.6.0', 'resnet34', pretrained=False)
+        #self.net = torch.hub.load('pytorch/vision:v0.6.0', 'resnet34', pretrained=False)
+        self.net = models.resnet34(pretrained=False)
         #self.net = torch.hub.load('pytorch/vision:v0.6.0', 'resnet18', pretrained=True)
         self.net.fc = nn.Sequential(
         nn.Linear(self.net.fc.in_features, 10, bias=True),
@@ -136,7 +137,4 @@ class Resnet34(nn.Module):
 
 if __name__ == "__main__":
     net = Resnet34()
-    #print(net)
-    ten = torch.randn(1, 3, 224, 224)
-    output = net(ten)
-    print(output)
+    print(net)

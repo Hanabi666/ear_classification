@@ -1,0 +1,44 @@
+ImmutableMultiDict([('imagetype', <FileStorage: 'normal.png' ('image/png')>)])
+ImmutableMultiDict([])
+b''
+********************
+ImmutableMultiDict([('imagetype', <FileStorage: 'normal.png' ('image/png')>)])
+ImmutableMultiDict([])
+b''
+********************
+ImmutableMultiDict([('imagetype', <FileStorage: 'normal.png' ('image/png')>)])
+ImmutableMultiDict([])
+b''
+********************
+ImmutableMultiDict([('imagetype', <FileStorage: 'normal.png' ('image/png')>)])
+ImmutableMultiDict([])
+b''
+********************
+ImmutableMultiDict([])
+ImmutableMultiDict([('imagetype', '/storage/emulated/0/DCIMEar_1614149427780.jpg')])
+b''
+********************
+ImmutableMultiDict([])
+ImmutableMultiDict([('imagetype', '/storage/emulated/0/DCIMEar_1614149427780.jpg')])
+b''
+********************
+ImmutableMultiDict([])
+ImmutableMultiDict([('imagetype', '/storage/emulated/0/DCIMEar_1614149427780.jpg')])
+b''
+********************
+ImmutableMultiDict([])
+ImmutableMultiDict([('imagetype', '/storage/emulated/0/DCIMEar_1614149427780.jpg')])
+b''
+********************
+ImmutableMultiDict([])
+ImmutableMultiDict([('imagetype', '/storage/emulated/0/DCIMEar_1614149427780.jpg')])
+b''
+********************
+ImmutableMultiDict([('imagetype', <FileStorage: 'normal.png' ('image/png')>)])
+ImmutableMultiDict([])
+b''
+********************
+ImmutableMultiDict([('imagetype', <FileStorage: 'EAR.jpg' ('image/jpeg')>)])
+ImmutableMultiDict([])
+b''
+********************

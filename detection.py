@@ -15,12 +15,12 @@ from utils import *
 
 
 net = Resnet34()
-net.load_state_dict(torch.load('../classification_demo/checkpoints/trainedmodel.pth'))
+net.load_state_dict(torch.load('checkpoints/trainedmodel.pth'))
 
 def predict(img):
     img = padding(img)
     img = pil_to_tensor(img)
-    print(img.size())
+    #print(img.size())
     img = torch.unsqueeze(img, dim=0)
     net.eval()
     with torch.no_grad():
@@ -45,7 +45,7 @@ for batch_idx, (data, target) in enumerate(train_dataloader):
 """
 
 if __name__ == '__main__':
-    root = 'classification_demo/test/正常.png'
+    root = 'test/normal.png'
     img = Image.open(root)
     output = predict(img)
     output = list_to_json(output)
